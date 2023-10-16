@@ -21,7 +21,7 @@
             <li><a href="#contact">Contact</a></li>
             <li class="list-link-sidebar">
               <div class="linkdinpiclink">
-                <a href="https://www.linkedin.com/feed/"><img src="./icons/linkedin.png" alt="" /></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./icons/linkedin.png" alt="" /></a>
               </div>
               <div class="gitpiclink">
                 <a href="https://github.com/HamzaShaukatsgd"><img src="./icons/github.svg" alt="" /></a>
@@ -40,8 +40,8 @@
             <ul>
               <li>Hi</li>
               <li>My Name is</li>
-              <li class="name-styling">Muhammad Hamza Shaukat</li>
-              <li>I build things web</li>
+              <li class="name-styling auto-name" style=" font-size: 4rem;color: rgb(162, 228, 10);">Muhammad Hamza Shaukat</li>
+              <li >I am  <span class="coder"></span></li>
             </ul>
           </div>
             <div class="profile-home" data-aos="zoom-in-left">
@@ -155,7 +155,6 @@
               <img src="./icons/react.svg" alt="react" />
               <img
                 src="./icons/github.svg"
-                style="background-color: black"
                 alt="git"
               />
             </div>
@@ -165,7 +164,7 @@
           <div class="projects-heading">Projects</div>
           <div class="project-desc">Things I've built so far</div>
           <div class="projects-detail">
-            <div class="project1" data-aos="slide-right">
+            <div class="project1" >
               <div class="img-proj">
                 <img
                   src="./imges/global1.png"
@@ -198,32 +197,32 @@
             <div class="project2">
               <div class="img-proj">
                 <img
-                  src="./imges/hamza.jpg"
+                  src="./imges/calculatorpic.png"
                   class="global-img"
                   alt="Project-pic"
                 />
                 <!-- Lorem ipsum dolor sit amet. -->
               </div>
-              <div class="title-proj">Global Project</div>
+              <div class="title-proj">Calculator</div>
               <div class="disc-proj">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                 ipsum dolor sit amet consectetur.
               </div>
               <div class="language-proj">
-                &nbsp;<span>Tech Stack:</span> &nbsp;Html,&nbsp;CSS
+                &nbsp;<span>Tech Stack:</span> &nbsp;Html,&nbsp;CSS,&nbsp;Javascript
               </div>
               <div class="linkproj">
                 <div class="netlifylink">
                   <img src="./icons/prewiew1.png" alt="linkpreview" />
-                  <a href="#">Live Previw</a>
+                  <a href="https://calculator-29.netlify.app" target="_blank">Live Previw</a>
                 </div>
                 <div class="gitlink">
                   <img src="./icons/github.svg" alt="" />
-                  <a href="#">View Code</a>
+                  <a href="https://github.com/HamzaShaukatsgd/Calculator" target="_blank">View Code</a>
                 </div>
               </div>
             </div>
-            <div class="project3" data-aos="slide-left">
+            <div class="project3" >
               <div class="img-proj">
                 <img
                   src="./imges/hamza.jpg"
@@ -271,6 +270,21 @@
         speed: 1000,
         speedAsDuration: true,
       });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16"></script>
+    <script>
+      var typed=new Typed (".coder",{
+        strings:["coder","Developer","Designer"],
+        typeSpeed:150,
+        backSpeed:150,
+        loop:true
+      })
+    </script>
+    <script>
+      var typed=new Typed (".auto-name",{
+        strings:["M Hamza Shaukat"],
+        typeSpeed:300
+      })
     </script>
     
   </body>
